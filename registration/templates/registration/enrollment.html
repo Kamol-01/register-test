@@ -14,11 +14,11 @@
             {% csrf_token %}
             <div class="form-group">
                 <label for="id_student">Student:</label>
-                {{ form.student }}
+                {{ form.student }}  <!-- ตรวจสอบว่าฟิลด์นี้มีอยู่ในฟอร์มหรือไม่ -->
             </div>
             <div class="form-group">
                 <label for="id_course">Course:</label>
-                {{ form.course }}
+                {{ form.course }}  <!-- ตรวจสอบว่าฟิลด์นี้มีอยู่ในฟอร์มหรือไม่ -->
             </div>
             <button type="submit" class="btn btn-primary">Enroll</button>
         </form>

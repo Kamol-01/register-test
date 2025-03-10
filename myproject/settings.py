@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'registration',  # เพิ่มแอปพลิเคชัน registration ที่นี่
 ]
 
 MIDDLEWARE = [
